@@ -14,7 +14,7 @@ alert (` The weather in ${response.data.name}  is ${response.data.main.temp}℃`
    axios.get(apiUrl).then(handleResponse);
   return  (
   <Loader type="Grid"
-   color="#00BFFF"
+   color="orange"
     height={80} 
     width={80} />
     );
